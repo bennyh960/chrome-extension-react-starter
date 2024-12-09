@@ -35,7 +35,8 @@
   "scripts": {
     "dev": "react-scripts start",
     "start": "webpack --watch --progress --config webpack.dev.js",
-    "build": "webpack --watch --progress --config webpack.prod.js"
+    "build": "webpack --watch --progress --config webpack.prod.js",
+    "update-npm": "git add . & git commit -m 'auto-update' & npm version patch & npm publish"
   },
   "eslintConfig": {
     "extends": [
