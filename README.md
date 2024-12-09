@@ -18,12 +18,10 @@ This will create a new directory with the basic structure for a React TS Chrome 
 my-app/
 |--- src/
 |    |--- background/
-|    |--- components/
 |    |--- contentScript/
 |    |--- options/
 |    |--- popup/
 |    |--- static/
-|    |--- utils/
 |--- tsconfig.json
 |--- package.json
 |--- webpack.common.js
