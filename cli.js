@@ -14,11 +14,19 @@ function copyTemplateFiles(templatePath, targetPath) {
   }
 
   // List of files and directories to copy
-  const itemsToCopy = ["tsconfig.json", ".gitignore", "webpack.common.js", "webpack.dev.js", "webpack.prod.js", "src"];
+  const itemsToCopy = [
+    "tsconfig.json",
+    ".gitignore.template",
+    "package.json.template",
+    "webpack.common.js",
+    "webpack.dev.js",
+    "webpack.prod.js",
+    "src",
+  ];
 
   itemsToCopy.forEach((item) => {
     const sourcePath = path.join(templatePath, item);
-    const destinationPath = path.join(targetPath, item);
+    const destinationPath = path.join(targetPath, item.replace(".template", ""));
 
     if (fs.lstatSync(sourcePath).isDirectory()) {
       // Recursively copy directories
@@ -61,7 +69,7 @@ function main() {
   const targetPath = path.join(process.cwd(), targetDir);
 
   copyTemplateFiles(templatePath, targetPath);
-  installDependencies(targetPath);
+  // installDependencies(targetPath);
 
   console.log("Chrome extension project setup complete!");
 }
