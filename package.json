@@ -1,13 +1,14 @@
 {
-  "name": "@tozilu960/react-ts-chrome-extension",
-  "author": "Tozilu ltd",
+  "name": "chrome-extension-react-starter",
+  "author": "Bennyh960",
   "license": "MIT",
   "main": "cli.js",
   "description": "A starter package for creating Chrome extensions with react and typescript",
-  "version": "0.1.12",
+  "version": "0.0.1",
   "bin": {
-    "create-react-ts-chrome-extension": "./cli.js"
+    "create-chrome-extension-react-starter": "./cli.js"
   },
+  "readme": "README.md",
   "homepage": "https://github.com/bennyh960/chrome-extension-react-starter/blob/main/README.md",
   "keywords": [
     "chrome extension",
