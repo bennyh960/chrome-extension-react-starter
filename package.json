@@ -1,7 +1,10 @@
 {
-  "name": "react-chrome-ext",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@tozilu960/react-ts-chrome-extension",
+  "author": "Tozilu ltd",
+  "license": "MIT",
+  "main": "cli.js",
+  "description": "A starter package for creating Chrome extensions with react and typescript",
+  "version": "0.1.1",
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
@@ -44,5 +47,8 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^6.0.1"
+  },
+  "bin": {
+    "create-react-ts-chrome-extension": "./cli.js"
   }
 }
