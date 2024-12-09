@@ -8,6 +8,7 @@
   "bin": {
     "create-react-ts-chrome-extension": "./cli.js"
   },
+  "homepage": "https://github.com/serverless/serverless#readme",
   "files": [
     "README.md"
   ],
