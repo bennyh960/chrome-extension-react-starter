@@ -9,16 +9,8 @@
     "create-react-ts-chrome-extension": "./cli.js"
   },
   "files": [
-    "README.md",
-    "src",
-    "tsconfig.json",
-    "package.json",
-    "webpack.common.js",
-    "webpack.dev.js",
-    "webpack.prod.js"
+    "README.md"
   ],
-  "homepage": "https://github.com/bennyh960/chrome-extension-react-starter",
-  "readme": "README.md",
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
