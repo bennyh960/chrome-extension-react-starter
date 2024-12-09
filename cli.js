@@ -69,7 +69,7 @@ function main() {
   const targetPath = path.join(process.cwd(), targetDir);
 
   copyTemplateFiles(templatePath, targetPath);
-  // installDependencies(targetPath);
+  installDependencies(targetPath);
 
   console.log("Chrome extension project setup complete!");
 }

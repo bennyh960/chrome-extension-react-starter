@@ -3,6 +3,10 @@
   "author": "Tozilu ltd",
   "license": "MIT",
   "main": "cli.js",
+  "bin": {
+    "create-react-ts-chrome-extension": "./cli.js"
+  },
+  "readme": "README.md",
   "description": "A starter package for creating Chrome extensions with react and typescript",
   "version": "0.1.5",
   "dependencies": {
@@ -47,8 +51,5 @@
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^6.0.1"
-  },
-  "bin": {
-    "create-react-ts-chrome-extension": "./cli.js"
   }
 }

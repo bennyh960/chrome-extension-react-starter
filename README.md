@@ -1,10 +1,35 @@
-# React Chrome Extension Boilerplate
+# React TS Chrome Extension Boilerplate
 
 ## Getting Started
 
-1. `npm i` to install dependancies
-2. `npm start` to start running the fast development mode Webpack build process that bundle files into the `dist` folder
-3. `npm i --save-dev <package_name>` to install new packages
+To get started with this boilerplate, simply run the following command in your terminal:
+
+```bash
+npx @tozilu960/react-ts-chrome-extension <my-app-name>
+```
+
+Replace `my-app-name` with the name of your Chrome extension project.
+
+This will create a new directory with the basic structure for a React TS Chrome extension, including a `tsconfig.json` file, a `package.json` file, and a `src` directory with some basic files to get you started.
+
+## Project Structure
+
+```bash
+my-app/
+|--- src/
+|    |--- background/
+|    |--- contentScript/
+|    |--- components/
+|    |--- containers/
+|    |--- static/
+|    |--- index.tsx
+|    |--- options.tsx
+|--- tsconfig.json
+|--- package.json
+|--- webpack.common.js
+|--- webpack.dev.js
+|--- webpack.prod.js
+```
 
 ## Loading The Chrome Extension
 
@@ -13,14 +38,13 @@
 3. Click `Load unpacked`
 4. Select the entire `dist` folder
 
-# Important Initial Steps
+## Important Initial Steps
 
-1. `git init` to start a new git repo for tracking your changes, do an initial base commit with all the default files
-2. Update `package.json`, important fields include `author`, `version`, `name` and `description`
-3. Update `manifest.json`, important fields include `version`, `name` and `description`
-4. Update `webpack.commmon.js`, the title in the `getHtmlPlugins` function should be your extension name
+1. Update `package.json`, important fields include `author`, `version`, `name` and `description`
+2. Update `manifest.json`, important fields include `version`, `name` and `description`
+3. Update `webpack.common.js`, the title in the `getHtmlPlugins` function should be your extension name
 
-# Production Build
+## Production Build
 
 1. `npm run build` to generate a minimized production build in the `dist` folder
 2. ZIP the entire `dist` folder (e.g. `dist.zip`)
@@ -31,3 +55,15 @@
 - Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
 - Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
 - Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
+
+## Contributing
+
+Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Changelog
+
+See the [CHANGELOG.md](CHANGELOG.md) file for more information.
