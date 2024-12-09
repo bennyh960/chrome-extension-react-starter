@@ -5,7 +5,7 @@
 To get started with this boilerplate, simply run the following command in your terminal:
 
 ```bash
-npx @tozilu960/react-ts-chrome-extension <my-app-name>
+npx chrome-extension-react-ts <my-app-name>
 ```
 
 Replace `my-app-name` with the name of your Chrome extension project.
