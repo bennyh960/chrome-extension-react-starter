@@ -3,12 +3,12 @@
   "author": "Tozilu ltd",
   "license": "MIT",
   "main": "cli.js",
+  "description": "A starter package for creating Chrome extensions with react and typescript",
+  "version": "0.1.6",
   "bin": {
     "create-react-ts-chrome-extension": "./cli.js"
   },
   "readme": "README.md",
-  "description": "A starter package for creating Chrome extensions with react and typescript",
-  "version": "0.1.5",
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
