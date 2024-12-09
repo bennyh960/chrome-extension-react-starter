@@ -27,7 +27,6 @@
     "url": "git+https://github.com/bennyh960/chrome-extension-react-starter.git"
   },
   "scripts": {
-    "dev": "react-scripts start",
     "start": "webpack --watch --progress --config webpack.dev.js",
     "build": "webpack --watch --progress --config webpack.prod.js",
     "update-npm": "git add . & git commit -m 'auto-update' & npm version patch & npm publish"
@@ -52,8 +51,7 @@
   },
   "dependencies": {
     "style-loader": "^4.0.0",
-    "terser-webpack-plugin": "^5.3.10",
-    "react-scripts": "5.0.1"
+    "terser-webpack-plugin": "^5.3.10"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.287",

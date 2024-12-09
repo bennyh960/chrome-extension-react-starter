@@ -16,7 +16,7 @@ function copyTemplateFiles(templatePath, targetPath) {
   // List of files and directories to copy
   const itemsToCopy = [
     ".gitignore.template",
-    "package.json.template",
+    "package.template.json",
     "tsconfig.json",
     "webpack.common.js",
     "webpack.dev.js",
