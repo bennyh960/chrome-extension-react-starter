@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "cli.js",
   "description": "A starter package for creating Chrome extensions with react and typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "create-chrome-extension-react-ts": "./cli.js"
   },
