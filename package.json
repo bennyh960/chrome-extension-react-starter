@@ -6,7 +6,7 @@
   "description": "A starter package for creating Chrome extensions with react and typescript",
   "version": "0.0.3",
   "bin": {
-    "create-chrome-extension-react-ts": "./cli.js"
+    "create-chrome-extension-react-ts": "cli.js"
   },
   "readme": "README.md",
   "homepage": "https://github.com/bennyh960/chrome-extension-react-starter/blob/main/README.md",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bennyh960/chrome-extension-react-starter.git"
+    "url": "git+https://github.com/bennyh960/chrome-extension-react-starter.git"
   },
   "dependencies": {
     "cra-template-typescript": "1.2.0",
